@@ -1,0 +1,52 @@
+body {
+	background-image: url(background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+p {
+	font-size: 25pt;
+	font-family: arial;
+	color: white;
+	width: 30%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+a {
+	font-family: arial;
+	font-size: 15pt;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+a:hover {
+	background-color: gray;
+	color: black;
+}
+
+.links {
+	background-color: white;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+.center {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.video {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 25px;
+}

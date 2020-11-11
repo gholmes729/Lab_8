@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Colors</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<p id="manipulation" style="background-color:rgb(240, 100, 150)" style="border-color:rgb(70, 70, 100)" style=border-width:25px;>So many colors! All composed of rgb values. Wow!</p>
+		<div class="border">
+	<h1> Border Manipulation (0-255) </h1>
+
+	Red:
+	<label for="redBorder"></label><input id="redBorder" type="text">
+	<br>
+	<br>
+
+	Green:
+	<label for="greenBorder"></label><input id="greenBorder" type="text">
+	<br>
+	<br>
+
+	Blue:
+	<label for="blueBorder"></label><input id="blueBorder" type="text">
+	<br>
+	<br>
+
+	Width:
+	<label for="widthBorder"></label><input id="widthBorder" type="text">
+	<br>
+	<br>
+	</div>
+
+	<div class="background">
+	<h1> Background Manipulation (0-255) </h1>
+
+	Red:
+	<label for="redBackground"></label><input id="redBackground" type="text">
+	<br>
+	<br>
+
+	Green:
+	<label for="greenBackground"></label><input id="greenBackground" type="text">
+	<br>
+	<br>
+
+	Blue:
+	<label for="blueBackground"></label><input id="blueBackground" type="text">
+	<br>
+	<br>
+
+	</div>
+
+	<div>
+		<button id="manipulate" onclick=manipulation()> Change </button>
+	</div>
+
+	</body>
+	<script src="colors.js"></script>
+</html>

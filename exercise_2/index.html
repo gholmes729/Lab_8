@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Slide Show</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h4 class="title">Animals</h4>
+		<div class="slideshow">
+			<div class="slide">
+				<div class="numbers">1 / 5</div>
+				<img src="resources/lion.jpeg" width="500" height="500">
+				<div class="text">Lion</div>
+			</div>
+
+			<div class="slide">
+				<div class="numbers">2 / 5</div>
+				<img src="resources/monkey.jpg" width="500" height="500">
+				<div class="text">Monkey</div>
+			</div>
+
+			<div class="slide">
+				<div class="numbers">3 / 5</div>
+				<img src="resources/rhino.jpeg" width="500" height="500">
+				<div class="text">Rhino</div>
+			</div>		
+
+			<div class="slide">
+				<div class="numbers">4 / 5</div>
+				<img src="resources/panther.jpeg" width="500" height="500">
+				<div class="text">Panther</div>
+			</div>
+
+			<div class="slide">
+				<div class="numbers">5 / 5</div>
+				<img src="resources/elephant.jpeg" width="500" height="500">				
+				<div class="text">Elephant</div>
+			</div>
+
+			<div> <button class="previous" onclick="changeSlide(-1)">Previous</button></div>
+			<div> <button class="next" onclick="changeSlide(1)">Next</button></div>		
+		</div>
+	</body>
+	<script src="slideshow.js"></script>
+</html>
